@@ -266,3 +266,94 @@ header {
   align-items: center;
   margin-bottom: 160px;
 }
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.section-5-title {
+  color: #1B2534;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.section-card-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #1B2534;
+  width: 390px;
+}
+.section-card-text {
+  color: #606060;
+  font-size: 20px;
+  width: 410px;
+}
+.user-name {
+  color: #1B2534;
+  font-size: 20px;
+  font-weight: 700;
+}
+.user-status {
+  color: #606060;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.section-6-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dote {
+  width: 10px;
+  height: 10px;
+  background-color: #29A0F5;
+  border-radius: 10px;
+}
+.status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.section-6-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.section-6-btn {
+  display: flex;
+  justify-content: center;
+  padding-block: 90px;
+}
+.back-color {
+  background: linear-gradient(294.27deg, #30A8FF 0%, #C4F5C9 100%);
+
+}
+.section-7-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  align-items: end;
+}
+.section-7-title {
+  font-size: 65px;
+  font-weight: 700;
+  width: 577px;
+}
+.section-7 {
+  padding-top: 160px;
+}
+.section-7-btn {
+  border-radius: 20px;
+  border: 1px solid #1B2534;
+  background-color: #1B2534;
+  padding: 19px 35px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
