@@ -40,7 +40,7 @@ p {
 }
 
 .nav-btn {
-  width: 212px;
+  max-width: 212px;
   height: 61px;
   color: #fff;
   background-color: #1b2534;
@@ -150,7 +150,7 @@ header {
   font-weight: 700;
 }
 .paragraph {
-  width: 635px;
+  max-width: 635px;
   font-size: 20px;
   color: #1b2534;
 }
@@ -256,7 +256,7 @@ header {
 .feuture-text {
   color: #ABABAB;
   font-size: 35px;
-  width: 687px;
+  max-width: 687px;
   padding-top: 45px;
 }
 .Rating {
@@ -351,7 +351,7 @@ header {
 .section-7-title {
   font-size: 65px;
   font-weight: 700;
-  width: 577px;
+  max-width: 577px;
 }
 .section-7 {
   padding-block: 160px 600px;
@@ -413,7 +413,7 @@ header {
 }
 .last-infos {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   text-align: center;
   justify-content: space-between;
   padding-top: 30px;
@@ -442,7 +442,7 @@ header {
   position: relative;
   border: none;
   background: transparent;
-  width: 40px;
+  max-width: 40px;
   height: 26px;
 }
 .burger::before,
@@ -490,7 +490,7 @@ header {
   /* list-style-type: none; */
   transform: translateX(-100%);
   transition: .3s;
-  width: 300px;
+  max-width: 300px;
   height: 100vh;
 }
 .menu-item {
@@ -519,7 +519,17 @@ header {
     margin-top: 60px;
     gap: 40px;
   }
+  .more-info {
+    gap: 45px;
+    flex-direction: column;
+  }
   
+ 
+  .learn {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
 }
 @media (max-width: 1100px) {
   .nav-links {
@@ -592,6 +602,7 @@ header {
     font-weight: 600;
   }
 }
+
 
 
 
