@@ -530,6 +530,13 @@ header {
     align-items: center;
     gap: 35px;
   }
+  .all-card {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 45px;
+  }
+  
 }
 @media (max-width: 1100px) {
   .nav-links {
@@ -545,10 +552,25 @@ header {
     display: block;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   header {
     height: 120vh;
   }
+  .hero-btn {
+    font-size: 16px;
+    padding: 18px 32px !important; 
+   }
+
+   .explore-text {
+    font-size: 25px;
+   }
+   .img-size {
+    width: 60%;
+    height: 60%;
+   }
+   .explore {
+    width: 700px;
+   }
 }
 @media (max-width: 426px) {
  header {
@@ -560,6 +582,40 @@ header {
  .main-theme {
   font-size: 40px;
  }
+ .section {
+  font-size: 40px;
+  font-weight: 600;
+ }
+ .paragraph {
+  font-size: 16px;
+ }
+ .photo-size {
+  width: 100%;
+  height: 100%;
+ }
+ .img-size-2 {
+  width: 70%;
+  height: 70%;
+ }
+ .card-info {
+  font-size: 25px;
+  font-weight: 600;
+ }
+ .second-card {
+  height: 200px;
+ }
+ .img-size {
+  width: 60%;
+  height: 60%;
+ }
+ .hero-btn {
+  font-size: 16px;
+  padding: 14px 20px !important; 
+ }
+ .explore {
+  width: 410px;
+ }
+
 }
 @media (max-width: 326px) {
   .title {
@@ -587,6 +643,9 @@ header {
   font-weight: 500;
   font-size: 12px;
  }
+ 
+ 
+ 
 }
 @media (max-width: 376px) {
   .size {
@@ -601,6 +660,21 @@ header {
     font-size: 35px;
     font-weight: 600;
   }
+  .explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 12px;
+    width: 370px;
+  }
+  .img-size {
+    width: 80%;
+    height: 60%;
+   }
+   .second-card {
+    height: 200px;
+    width: 360px;
+   }
 }
 
 
